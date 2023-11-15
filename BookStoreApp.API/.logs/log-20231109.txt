@@ -1,0 +1,10 @@
+2023-11-09 15:59:27.213 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-09 15:59:27.252 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-09 15:59:27.257 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 15:59:27.258 -08:00 [INF] Hosting environment: Development
+2023-11-09 15:59:27.259 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-09 16:16:16.058 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-09 16:16:16.092 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-09 16:16:16.095 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 16:16:16.096 -08:00 [INF] Hosting environment: Development
+2023-11-09 16:16:16.097 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
