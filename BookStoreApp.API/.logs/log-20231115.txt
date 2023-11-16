@@ -106,3 +106,151 @@ Error Number:2627,State:1,Class:14
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
 2023-11-15 11:36:31.942 -08:00 [INF] Login Attempt for user@bookstore.com 
+2023-11-15 21:27:16.320 -08:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-11-15 21:27:16.423 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-15 21:27:16.433 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-15 21:27:16.454 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-15 21:27:16.464 -08:00 [INF] Hosting environment: Development
+2023-11-15 21:27:16.466 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-15 21:27:38.881 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__4(JwtBearerOptions options) in C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Program.cs:line 44
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-15 21:27:39.086 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__4(JwtBearerOptions options) in C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Program.cs:line 44
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-15 21:33:50.018 -08:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-11-15 21:33:50.102 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-15 21:33:50.105 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-15 21:33:50.106 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-15 21:33:50.107 -08:00 [INF] Hosting environment: Development
+2023-11-15 21:33:50.107 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-15 21:36:22.478 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__4(JwtBearerOptions options) in c:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Program.cs:line 44
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-15 22:21:08.305 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-15 22:21:08.353 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-15 22:21:08.355 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-15 22:21:08.356 -08:00 [INF] Hosting environment: Development
+2023-11-15 22:21:08.356 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-15 22:30:10.485 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-15 22:30:10.535 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-15 22:30:10.537 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-15 22:30:10.537 -08:00 [INF] Hosting environment: Development
+2023-11-15 22:30:10.538 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-15 22:33:42.654 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-15 22:33:42.706 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-15 22:33:42.711 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-15 22:33:42.711 -08:00 [INF] Hosting environment: Development
+2023-11-15 22:33:42.712 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-15 22:46:16.090 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-15 22:46:16.142 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-15 22:46:16.144 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-15 22:46:16.144 -08:00 [INF] Hosting environment: Development
+2023-11-15 22:46:16.145 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-15 22:46:34.822 -08:00 [INF] Login Attempt for user@bookstore.com 
+2023-11-15 22:46:37.696 -08:00 [ERR] Something Went Wrong in the Login
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '120'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at BookStoreApp.API.Controllers.AuthController.GenerateToken(ApiUser user) in c:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Controllers\AuthController.cs:line 134
+   at BookStoreApp.API.Controllers.AuthController.Login(LoginUserDto userDto) in c:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Controllers\AuthController.cs:line 85
+2023-11-15 22:47:28.366 -08:00 [INF] Registration Attempt for user@bookstore.com
+2023-11-15 22:47:46.645 -08:00 [INF] Login Attempt for user@bookstore.com 
+2023-11-15 22:47:46.856 -08:00 [ERR] Something Went Wrong in the Login
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '120'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at BookStoreApp.API.Controllers.AuthController.GenerateToken(ApiUser user) in c:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Controllers\AuthController.cs:line 134
+   at BookStoreApp.API.Controllers.AuthController.Login(LoginUserDto userDto) in c:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Controllers\AuthController.cs:line 85
+2023-11-15 22:48:21.630 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-15 22:48:21.681 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-15 22:48:21.683 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-15 22:48:21.684 -08:00 [INF] Hosting environment: Development
+2023-11-15 22:48:21.684 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-15 22:48:41.915 -08:00 [INF] Login Attempt for user@bookstore.com 
+2023-11-15 22:48:44.350 -08:00 [ERR] Something Went Wrong in the Login
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '120'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at BookStoreApp.API.Controllers.AuthController.GenerateToken(ApiUser user) in c:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Controllers\AuthController.cs:line 135
+   at BookStoreApp.API.Controllers.AuthController.Login(LoginUserDto userDto) in c:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Controllers\AuthController.cs:line 86
+2023-11-15 23:00:39.972 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-15 23:00:40.025 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-15 23:00:40.028 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-15 23:00:40.028 -08:00 [INF] Hosting environment: Development
+2023-11-15 23:00:40.028 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-15 23:01:01.650 -08:00 [INF] Login Attempt for user@bookstore.com 
+2023-11-15 23:01:04.510 -08:00 [ERR] Something Went Wrong in the Login
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '120'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at BookStoreApp.API.Controllers.AuthController.GenerateToken(ApiUser user) in c:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Controllers\AuthController.cs:line 135
+   at BookStoreApp.API.Controllers.AuthController.Login(LoginUserDto userDto) in c:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API\Controllers\AuthController.cs:line 86
+2023-11-15 23:03:24.073 -08:00 [INF] Login Attempt for user@bookstore.com 
+2023-11-15 23:04:50.461 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-15 23:04:50.513 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-15 23:04:50.515 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-15 23:04:50.515 -08:00 [INF] Hosting environment: Development
+2023-11-15 23:04:50.515 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-15 23:05:21.080 -08:00 [INF] Login Attempt for user@bookstore.com 

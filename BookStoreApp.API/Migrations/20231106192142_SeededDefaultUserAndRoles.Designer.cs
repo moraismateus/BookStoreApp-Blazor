@@ -103,7 +103,7 @@ namespace BookStoreApp.API.Migrations
                             Id = "aab32168-1ee4-4e04-90b5-08f770e09317",
                             AccessFailedCount = 0,
                             ConcurrencyStamp = "b7dfe96b-746b-4529-afe6-dc29f2496ce7",
-                            Email = "admin@bookstrore.com",
+                            Email = "admin@bookstore.com",
                             EmailConfirmed = false,
                             FirstName = "System",
                             LastName = "Admin",
@@ -114,14 +114,14 @@ namespace BookStoreApp.API.Migrations
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "a3e61c30-d5b8-484d-a7c0-462ad6bca2e5",
                             TwoFactorEnabled = false,
-                            UserName = "admin@bookstrore.com"
+                            UserName = "admin@bookstore.com"
                         },
                         new
                         {
                             Id = "f48eec2e-c3ec-4b32-bd93-ad88da2b87e2",
                             AccessFailedCount = 0,
                             ConcurrencyStamp = "5411e1cb-acca-4118-91c7-bac806039e1f",
-                            Email = "user@bookstrore.com",
+                            Email = "user@bookstore.com",
                             EmailConfirmed = false,
                             FirstName = "System",
                             LastName = "User",
@@ -132,7 +132,7 @@ namespace BookStoreApp.API.Migrations
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "74f72af2-7247-4d09-956f-ab1af35f3b09",
                             TwoFactorEnabled = false,
-                            UserName = "user@bookstrore.com"
+                            UserName = "user@bookstore.com"
                         });
                 });
 
