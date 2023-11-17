@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "C#: Run All Projects",
+            "configurations": ["C#: BookStoreApp.Blazor.Server.UI [https]", "C#: BookStoreApp.API"]
+        }
+    ],
+    "configurations": [
+        {
+            "name": "C#: BookStoreApp.Blazor.Server.UI [https]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\BookStoreApp.Blazor.Server.UI\\BookStoreApp.Blazor.Server.UI.csproj",
+            "launchConfigurationId": "TargetFramework=;https"
+        },
+        {
+            "name": "C#: BookStoreApp.API",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\BookStoreApp.API\\BookStoreApp.API.csproj",
+            "launchConfigurationId": "TargetFramework=;BookStoreApp.API"
+        }
+    ]
+}

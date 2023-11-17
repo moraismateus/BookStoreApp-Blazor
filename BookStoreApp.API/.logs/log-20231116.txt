@@ -1,0 +1,21 @@
+2023-11-16 20:59:37.135 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-16 20:59:37.205 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-16 20:59:37.210 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-16 20:59:37.212 -08:00 [INF] Hosting environment: Development
+2023-11-16 20:59:37.213 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-16 23:19:11.796 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-16 23:19:11.860 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-16 23:19:11.863 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-16 23:19:11.863 -08:00 [INF] Hosting environment: Development
+2023-11-16 23:19:11.864 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-16 23:21:04.486 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-16 23:21:04.545 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-16 23:21:04.547 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-16 23:21:04.547 -08:00 [INF] Hosting environment: Development
+2023-11-16 23:21:04.547 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-16 23:47:29.162 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-16 23:47:29.232 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-16 23:47:29.234 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-16 23:47:29.234 -08:00 [INF] Hosting environment: Development
+2023-11-16 23:47:29.234 -08:00 [INF] Content root path: C:\Users\mateu\Documents\GitHub\BookStoreApp-Blazor\BookStoreApp.API
+2023-11-16 23:48:02.080 -08:00 [INF] Login Attempt for user@bookstore.com 
