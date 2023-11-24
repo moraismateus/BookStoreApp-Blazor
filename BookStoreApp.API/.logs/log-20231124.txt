@@ -1,0 +1,29 @@
+2023-11-24 14:28:59.847 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-24 14:28:59.883 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-24 14:28:59.885 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-24 14:28:59.886 -08:00 [INF] Hosting environment: Development
+2023-11-24 14:28:59.887 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-24 14:39:55.464 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-24 14:39:55.549 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-24 14:39:55.566 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-24 14:39:55.569 -08:00 [INF] Hosting environment: Development
+2023-11-24 14:39:55.572 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-24 14:45:12.696 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-24 14:45:12.730 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-24 14:45:12.735 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-24 14:45:12.736 -08:00 [INF] Hosting environment: Development
+2023-11-24 14:45:12.738 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-24 14:48:01.234 -08:00 [INF] Registration Attempt for user@test.com
+2023-11-24 14:48:58.110 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-24 14:48:58.139 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-24 14:48:58.144 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-24 14:48:58.145 -08:00 [INF] Hosting environment: Development
+2023-11-24 14:48:58.146 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-24 14:50:00.755 -08:00 [INF] Registration Attempt for user@test.com
+2023-11-24 14:51:01.060 -08:00 [INF] Registration Attempt for user1@test.com
+2023-11-24 14:57:33.487 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-24 14:57:33.547 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-24 14:57:33.549 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-24 14:57:33.550 -08:00 [INF] Hosting environment: Development
+2023-11-24 14:57:33.551 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-24 15:00:09.376 -08:00 [INF] Registration Attempt for user2@test.com
