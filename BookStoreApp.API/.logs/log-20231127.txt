@@ -1,0 +1,32 @@
+2023-11-27 15:50:31.638 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-27 15:50:31.671 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-27 15:50:31.672 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-27 15:50:31.672 -08:00 [INF] Hosting environment: Development
+2023-11-27 15:50:31.672 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-27 22:15:06.696 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-27 22:15:06.738 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-27 22:15:06.741 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-27 22:15:06.742 -08:00 [INF] Hosting environment: Development
+2023-11-27 22:15:06.744 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-27 22:32:56.678 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-27 22:32:56.727 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-27 22:32:56.736 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-27 22:32:56.738 -08:00 [INF] Hosting environment: Development
+2023-11-27 22:32:56.739 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-27 22:33:38.870 -08:00 [INF] Login Attempt for admin@bookstore.com 
+2023-11-27 22:33:40.037 -08:00 [INF] Login Attempt for admin@bookstore.com 
+2023-11-27 22:44:15.999 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-27 22:44:16.056 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-27 22:44:16.059 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-27 22:44:16.060 -08:00 [INF] Hosting environment: Development
+2023-11-27 22:44:16.061 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-27 22:44:39.231 -08:00 [INF] Login Attempt for admin@bookstore.com 
+2023-11-27 22:44:41.236 -08:00 [INF] Login Attempt for admin@bookstore.com 
+2023-11-27 22:44:55.809 -08:00 [INF] Login Attempt for admin@bookstore.com 
+2023-11-27 22:47:50.618 -08:00 [INF] Login Attempt for admin@bookstore.com 
+2023-11-27 22:55:51.244 -08:00 [INF] Now listening on: https://localhost:7047
+2023-11-27 22:55:51.285 -08:00 [INF] Now listening on: http://localhost:5202
+2023-11-27 22:55:51.292 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-27 22:55:51.294 -08:00 [INF] Hosting environment: Development
+2023-11-27 22:55:51.296 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2023-11-27 22:56:21.176 -08:00 [INF] Login Attempt for admin@bookstore.com 
