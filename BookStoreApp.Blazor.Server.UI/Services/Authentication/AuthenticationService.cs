@@ -7,11 +7,11 @@ namespace BookStoreApp.Blazor.Server.UI.Services.Authentication
 {
     public class AuthenticationService : IAuthenticationService
     {
-        private readonly IBookStoreServiceClient _httpClient;
+        private readonly IBookStoreClient _httpClient;
         private readonly ILocalStorageService _localStorage;
         private readonly AuthenticationStateProvider _authenticationStateProvider;
 
-        public AuthenticationService(IBookStoreServiceClient httpClient, ILocalStorageService localStorage, AuthenticationStateProvider authenticationStateProvider) 
+        public AuthenticationService(IBookStoreClient httpClient, ILocalStorageService localStorage, AuthenticationStateProvider authenticationStateProvider) 
         {
             _httpClient = httpClient;
             _localStorage = localStorage;
