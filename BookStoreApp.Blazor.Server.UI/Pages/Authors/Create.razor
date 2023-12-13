@@ -11,17 +11,19 @@
         <InputText @bind-Value="Author.FirstName" class="form-control" id="firstname"/>
         <ValidationMessage For="@(() => Author.FirstName)"/>
     </div>
+    <br />
     <div class="form-group">
-        <label for="lastname">Las Name</label>
+        <label for="lastname">Last Name</label>
         <InputText @bind-Value="Author.LastName" class="form-control" id="lastname"/>
         <ValidationMessage For="@(() => Author.LastName)"/>
     </div>
+    <br />
     <div class="form-group">
         <label for="bio">Biography</label>
         <InputText @bind-Value="Author.Bio" class="form-control" id="bio" />
         <ValidationMessage For="@(() => Author.Bio)" />
     </div>
-
+    <br />
     <button class="btn btn-primary" type="submit">
         <span class="oi oi-plus"></span>
         Create Author
