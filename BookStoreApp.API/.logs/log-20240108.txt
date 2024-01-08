@@ -1,0 +1,29 @@
+2024-01-08 11:10:23.586 -08:00 [INF] Now listening on: https://localhost:7047
+2024-01-08 11:10:23.614 -08:00 [INF] Now listening on: http://localhost:5202
+2024-01-08 11:10:23.618 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-08 11:10:23.619 -08:00 [INF] Hosting environment: Development
+2024-01-08 11:10:23.621 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2024-01-08 11:10:36.887 -08:00 [INF] Login Attempt for admin@bookstore.com 
+2024-01-08 11:22:11.674 -08:00 [INF] Now listening on: https://localhost:7047
+2024-01-08 11:22:11.702 -08:00 [INF] Now listening on: http://localhost:5202
+2024-01-08 11:22:11.704 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-08 11:22:11.705 -08:00 [INF] Hosting environment: Development
+2024-01-08 11:22:11.706 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2024-01-08 11:27:03.359 -08:00 [ERR] Performing GET in GetAuthors
+System.InvalidCastException: Unable to cast object of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[BookStoreApp.API.Models.Author.AuthorReadOnlyDto]' to type 'System.Linq.IQueryable`1[BookStoreApp.API.Models.Author.AuthorDetailsDto]'.
+   at AutoMapper.QueryableExtensions.Extensions.ToCore[TResult](IQueryable source, IConfigurationProvider configuration, Object parameters, IEnumerable`1 memberPathsToExpand)
+   at AutoMapper.QueryableExtensions.Extensions.ProjectTo[TDestination](IQueryable source, IConfigurationProvider configuration, Object parameters, Expression`1[] membersToExpand)
+   at AutoMapper.QueryableExtensions.Extensions.ProjectTo[TDestination](IQueryable source, IConfigurationProvider configuration, Expression`1[] membersToExpand)
+   at BookStoreApp.API.Controllers.AuthorsController.GetAuthor(Int32 id) in C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API\Controllers\AuthorsController.cs:line 65
+2024-01-08 11:28:17.061 -08:00 [INF] Now listening on: https://localhost:7047
+2024-01-08 11:28:17.085 -08:00 [INF] Now listening on: http://localhost:5202
+2024-01-08 11:28:17.089 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-08 11:28:17.090 -08:00 [INF] Hosting environment: Development
+2024-01-08 11:28:17.091 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
+2024-01-08 11:29:34.132 -08:00 [WRN] Record Not Found in GetAuthor
+2024-01-08 11:34:53.545 -08:00 [INF] Application is shutting down...
+2024-01-08 11:45:29.239 -08:00 [INF] Now listening on: https://localhost:7047
+2024-01-08 11:45:29.277 -08:00 [INF] Now listening on: http://localhost:5202
+2024-01-08 11:45:29.279 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-08 11:45:29.280 -08:00 [INF] Hosting environment: Development
+2024-01-08 11:45:29.280 -08:00 [INF] Content root path: C:\Users\MateusdeSouzaMorais\source\repos\BookStoreApp\BookStoreApp.API
