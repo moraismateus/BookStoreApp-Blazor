@@ -1,6 +1,8 @@
 ﻿@page "/authors/create/"
+@using BookStoreApp.Blazor.Server.UI.Static
 @inject NavigationManager navManager
 @inject IAuthorService authorService
+@attribute [Authorize(Roles = Roles.Administrator)]
 
 <h3>Create New Author</h3>
 <EditForm Model="Author" OnValidSubmit="HandleCreateAuthor">
