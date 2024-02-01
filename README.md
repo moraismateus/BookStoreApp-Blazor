@@ -3,11 +3,11 @@ This is being done following a tutorial/course on Udemy by Trevoir Williams, but
 Work in progress... :)
 
 Personal TODO in this project(not included in the tutorial):
-Upgrade it to .NET 8
-Make it use WASM
-Implement MudBlazor
-Implement ReactiveUI
-Use MVVM
-Modify it to use Minimal API
-Create Dockerfile to implement database and hosting
+Upgrade it to .NET 8,
+Make it use WASM,
+Implement MudBlazor,
+Implement ReactiveUI,
+Use MVVM,
+Modify it to use Minimal API,
+Create Dockerfile to implement database and hosting,
 Create MAUI APP that uses same UI and Services.
